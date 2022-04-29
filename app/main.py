@@ -1,8 +1,8 @@
 from flask import Flask, render_template
-import config
+import os
 
 app = Flask(__name__)
-db_uri = config.database_uri
+db_uri = os.environ['DB_URI']
 
 @app.route('/')
 def home():
