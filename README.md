@@ -1,5 +1,7 @@
 # heroku-app-with-postgres
 
+https://towardsdatascience.com/set-up-heroku-postgresql-for-your-app-in-python-7dad9ceb0f92
+
 This is a template for putting a python flask app on heroku with a postgres backend. This app queries the
 database, then populates the html page with the retrieved data. Each significant file is explained below.
 
