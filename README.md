@@ -15,5 +15,9 @@ then sends it to the database.
 Initializes the flask app. Holds all of the routes for the app and which python functions to run when. The 
 app queries the database, converts the query to html, then renders the html template with the content.
 
-
-
+## requirements.txt
+gunicorn - for the web process in heroku
+flask - webserver backend in python
+pandas - for dataframes
+sqlalchemy - for connecting/querying the database
+psycopg2-binary - for connecting/querying the database
