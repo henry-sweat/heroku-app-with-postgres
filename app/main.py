@@ -17,7 +17,7 @@ def home():
    # return results as df
    df = pd.read_sql(query, con)
    # convert df to html table
-   table = df.to_html(index=False)
+   table = df.to_html()
    #close connection
    if con is not None:
       con.close()
